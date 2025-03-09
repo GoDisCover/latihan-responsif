@@ -7,7 +7,7 @@
     float: left
 }
 .col-lg-1{
-    width: 25%;
+    width: 100%;
     background-color: wheat;
     float: left;
 }
@@ -21,23 +21,23 @@
     right: 0;
 }
 ul {
-    list-style-type: none; /* untuk menghapus bullet */
-    margin: 0; /* menghapus spasi sisi luar */
-    padding: 0; /* menghapus spasi sisi dalam */
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
     overflow: hidden;
-    background-color: #f1f1f1; /* warna background ul */
+    background-color: #f1f1f1; 
 }
 li {
     float: left;
 }
 li a {
-    display: block; /* menampilkan elemen sebagai blok */
-    color: #000; /* warna text */
-    padding: 8px 16px; /* spasi sisi dalam */
-    text-decoration: none; /* menghapus garis bawah pada link */
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
 }
-/* Change the link color on hover */
+
 li a:hover {
-    background-color: #555; /* warna background ketika hover */
-    color: white; /* warna text ketika hover*/
+    background-color: #555;
+    color: white;
 }
