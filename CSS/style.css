@@ -1,3 +1,43 @@
-.left{
+*{
+    box-sizing: border-box;
+}
+.col-rg-11{
+    width: 75%;
+    background-color: aqua;
     float: left
+}
+.col-lg-1{
+    width: 25%;
+    background-color: wheat;
+    float: left;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.right{
+    position: fixed;
+    right: 0;
+}
+ul {
+    list-style-type: none; /* untuk menghapus bullet */
+    margin: 0; /* menghapus spasi sisi luar */
+    padding: 0; /* menghapus spasi sisi dalam */
+    overflow: hidden;
+    background-color: #f1f1f1; /* warna background ul */
+}
+li {
+    float: left;
+}
+li a {
+    display: block; /* menampilkan elemen sebagai blok */
+    color: #000; /* warna text */
+    padding: 8px 16px; /* spasi sisi dalam */
+    text-decoration: none; /* menghapus garis bawah pada link */
+}
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555; /* warna background ketika hover */
+    color: white; /* warna text ketika hover*/
 }
