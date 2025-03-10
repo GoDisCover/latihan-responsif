@@ -1,5 +1,6 @@
 .col-md-6{
     width: 100%;
+    background-color: blanchedalmond;
 }
 .header__link{
     text-decoration: none;
@@ -7,13 +8,12 @@
 }
 
 .col-md-7{
-    float: left;
     display: flex;
     align-items: center;
     gap: 2em;
     padding: 0;
     list-style: none;
-    
+    background-color: blanchedalmond;
 }
 @media screen and (min-width: 600px) {
     .col-md-6{
@@ -24,21 +24,22 @@
     }
     .col-md-7{
         float: left;
-        display: flex;
         align-items: center;
-        gap: 20px;
+        gap: 2em;
         padding: 0;
         list-style: none;
         background-color: blanchedalmond;
-        width: 25,1%;
+        width: 25%;
     }
 }
 @media screen and (min-width: 992px){
     
     .col-md-6{
         width: 83.3%;
-        float: left;
         height: 50px;
+    }
+    .col-md-7{
+        width: 16%;
     }
     
 }
