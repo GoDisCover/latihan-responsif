@@ -7,6 +7,12 @@ body{
     background-color: #63707e;
     align-items: center;
 }
+.header__picture1{
+    display: flex;
+    width: 100px;
+    align-items: center;
+    padding-left: 40%;
+}
 .header__link{
     text-decoration: none;
     color: #f2f6f5;
@@ -24,11 +30,17 @@ body{
 @media screen and (min-width: 600px) {
     .header__picture{
         display: flex;
-        width: 74.9%;
+        width: 60%;
         background-color: #63707e;
         float: left;
         height: 50px;
         align-items: center;
+    }
+    .header__picture1{
+        display: flex;
+        width: 100px;
+        align-items: center;
+        padding-left: 10px;
     }
     .header{
         float: left;
@@ -37,7 +49,9 @@ body{
         padding: 0;
         list-style: none;
         background-color: #63707e;
-        width: 25%;
+        width: 40%;
+        display: flex;
+        white-space: nowrap;
     }
     .col-md-2{
         width: 45%;
@@ -50,12 +64,13 @@ body{
     
     .header__picture{
         display: flex;
-        width: 83.3%;
+        width: 75%;
         height: 50px;
         align-items: center;
     }
     .header{
-        width: 16.7%;
+        width: 25%;
+        gap: 2em;
     }
     .col-md-2{
         width: 24%;
@@ -64,4 +79,8 @@ body{
         align-items: center;
     }
     
+    
+}
+h1{
+    font    
 }
