@@ -5,9 +5,7 @@
     text-decoration: none;
     
 }
-.header{
-    background-color: bisque;
-}
+
 .col-md-7{
     float: left;
     display: flex;
@@ -22,16 +20,17 @@
         width: 74.9%;
         background-color: blanchedalmond;
         float: left;
+        height: 50px;
     }
     .col-md-7{
         float: left;
         display: flex;
         align-items: center;
-        gap: 2em;
+        gap: 20px;
         padding: 0;
         list-style: none;
-        height: 0px;
         background-color: blanchedalmond;
+        width: 25,1%;
     }
 }
 @media screen and (min-width: 992px){
@@ -39,5 +38,7 @@
     .col-md-6{
         width: 83.3%;
         float: left;
+        height: 50px;
     }
+    
 }
