@@ -5,6 +5,9 @@
     text-decoration: none;
     
 }
+.header{
+    background-color: bisque;
+}
 .col-md-7{
     float: left;
     display: flex;
