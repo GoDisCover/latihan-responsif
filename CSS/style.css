@@ -43,6 +43,7 @@ body{
         width: 45%;
         float: left;
         padding: 14px;
+        align-items: center;
     }
 }
 @media screen and (min-width: 992px){
@@ -57,9 +58,10 @@ body{
         width: 16.7%;
     }
     .col-md-2{
-        width: 23%;
+        width: 24%;
         float: left;
-        padding: 9px;
+        padding: 0.5%;
+        align-items: center;
     }
     
 }
