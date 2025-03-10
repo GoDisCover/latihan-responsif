@@ -39,6 +39,11 @@ body{
         background-color: #63707e;
         width: 25%;
     }
+    .col-md-2{
+        width: 45%;
+        float: left;
+        padding: 14px;
+    }
 }
 @media screen and (min-width: 992px){
     
@@ -50,6 +55,11 @@ body{
     }
     .header{
         width: 16.7%;
+    }
+    .col-md-2{
+        width: 23%;
+        float: left;
+        padding: 9px;
     }
     
 }
