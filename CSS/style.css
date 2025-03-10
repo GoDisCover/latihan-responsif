@@ -1,26 +1,40 @@
 .col-md-6{
     width: 100%;
 }
+.header__link{
+    text-decoration: none;
+    
+}
+.col-md-7{
+    float: left;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    padding: 0;
+    list-style: none;
+    
+}
 @media screen and (min-width: 600px) {
-    body {
-        background-color: red;
-    }
     .col-md-6{
-        width: 83.3%;
-        background-color: wheat;
+        width: 74.9%;
+        background-color: blanchedalmond;
         float: left;
     }
     .col-md-7{
         float: left;
+        display: flex;
+        align-items: center;
+        gap: 2em;
+        padding: 0;
+        list-style: none;
+        height: 0px;
+        background-color: blanchedalmond;
     }
 }
 @media screen and (min-width: 992px){
-    body {
-        background-color: aqua;
-    }
+    
     .col-md-6{
-        width: 91.6%;
-        background-color: wheat;
+        width: 83.3%;
         float: left;
     }
 }
