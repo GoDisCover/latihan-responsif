@@ -1,10 +1,16 @@
 body{
-    background-color: #f2f6f5;
+    background-color: #66D2CE;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
 }
 .header__picture{
     display: flex;
     width: 100%;
-    background-color: #63707e;
+    background-color: #2DAA9E;
     align-items: center;
 }
 .header__picture1{
@@ -16,28 +22,39 @@ body{
 .header__link{
     text-decoration: none;
     color: #f2f6f5;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: #8a97a0;
+    font-weight: bold;
 }
-
+.warna{
+    background-color: #2DAA9E;
+}
 .header{
     display: flex;
     align-items: center;
     gap: 2em;
     padding: 0;
     list-style: none;
-    background-color: #63707e;
+    white-space: nowrap;
 }
 .image{
     border-radius: 10px;
     width: 100%;
 }
+.col-md-2{
+    align-items: center;
+    padding: 14px;
+    background-color: #e8eeef;
+    border-radius: 10px;
+}
 form {
-    max-width: 300px;
+    max-width: 70%;
     margin: 10px auto;
     padding: 10px 20px;
     background: #f4f7f8;
     border-radius: 8px;
   }
- 
+
   input[type="text"],
   input[type="password"],
   input[type="date"],
@@ -57,11 +74,25 @@ form {
     margin: 0;
     outline: 0;
     padding: 15px;
-    width: 100%;
+    width: 90%;
     background-color: #e8eeef;
     color: #8a97a0;
     box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
     margin-bottom: 30px;
+  }
+  select {
+    width: 98%;
+  }
+  label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  button{
+    width: 98%;
+    height: 45px;
+    background-color: #e8eeef;
+    color: black;
+    border: none;
   }
   
   input[type="radio"],
@@ -71,8 +102,8 @@ form {
 @media screen and (min-width: 600px) {
     .header__picture{
         display: flex;
-        width: 60%;
-        background-color: #63707e;
+        width: 50%;
+        background-color: #2DAA9E;
         float: left;
         height: 50px;
         align-items: center;
@@ -89,8 +120,8 @@ form {
         gap: 2em;
         padding: 0;
         list-style: none;
-        background-color: #63707e;
-        width: 40%;
+        background-color: #2DAA9E;
+        width: 50%;
         display: flex;
         white-space: nowrap;
     }
@@ -99,30 +130,52 @@ form {
         float: left;
         padding: 14px;
         align-items: center;
+        background-color:  #EAEAEA;
+        border-radius: 10px;
+        gap : 2cm;
     }
+    .container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap : 0.1em;
+     }
+     .warna{
+        background-color: #66D2CE ;
+     }
 }
 @media screen and (min-width: 992px){
     
     .header__picture{
         display: flex;
-        width: 75%;
+        width: 70%;
         height: 50px;
         align-items: center;
     }
     .header{
-        width: 25%;
+        width: 30%;
         gap: 2em;
     }
     .col-md-2{
-        width: 24%;
+        width: 23%;
         float: left;
         padding: 0.5%;
         align-items: center;
+        background-color: #EAEAEA;
     }
     .col-md-3{
         float: left;
-        width: 50%;
+        width: 47%;
+        gap: 1em;
+        align-items: center;
+        padding: 1%;
     }
+    .container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+     }
     
     
 }
